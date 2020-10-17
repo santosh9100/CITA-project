@@ -1,0 +1,146 @@
+* {
+  font-family: sans-serif; /* Change your font family */
+}
+
+
+body {
+	background: #f6f5f7;
+	display: flex;
+	
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	height: 100vh;
+	margin: -20px 0 50px;
+}
+
+
+
+button {
+	border-radius: 20px;
+	border: 1px solid #FF8C00;
+	background-color: #FF8C00;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+	
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+button:focus {
+	outline: none;
+}
+
+button.ghost {
+	background-color: #FF8C00;
+	border-color: #FF8C00;
+}
+.content-table a {
+	color: #000000;
+	font-size: 11px;
+	text-decoration: none;
+	margin: 15px 0;
+	font-weight: bold;
+}
+.content-table a:hover{
+	color: #0000b3;
+  border-color: #0000b3;
+  
+}
+
+
+
+.content-table {
+	position: relative;
+  border-collapse: collapse;
+  margin-left:25%;
+  margin-right:auto;
+  font-size: 0.9em;
+  min-width: 700px;
+  width: 60%;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  
+  top: 100px;
+  box-shadow:0 14px 28px rgba(0,0,0,0.25),
+			0 15px 10px rgba(0,0,0,0.22);
+			
+}
+
+ 
+
+.content-table thead tr {
+  background-color: #ffffff;
+  color: #ffffff;
+  text-align: right;
+  font-weight: bold;
+  align-items: center;
+  
+}
+
+.content-table tbody tr {
+  background-color: #528aae;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.content-table th
+ {
+  padding: 17px 10px;
+}
+.content-table td{
+	padding: 14px 10px;
+}
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #87CEEB;
+}
+
+.content-table tfoot tr {
+  border-bottom: 1px solid #dddddd;
+  
+}
+
+.content-table tfoot tr:nth-of-type(even) {
+  background-color: #ffffff;
+}
+
+.content-table tfoot tr:last-of-type {
+  border-bottom: 2px solid #87CEEB;
+}
+
+.content-table tfoot tr.active-row {
+  font-weight: bold;
+  color: #87CEEB;
+}
+.content-table tfoot tr {
+
+  text-align: center;
+  
+}
+far fa-paper-plane{
+	color: #FF8C00;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}

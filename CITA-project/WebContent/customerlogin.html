@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script
+     src="https://kit.fontawesome.com/64d58efce2.js"
+     ></script>
+
+<title> CITA </title>
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="customer/index_controller.jsp" method="post">
+			<h2>Create Account</h2><br>
+
+			<input type="text" name="username" placeholder="Username" />
+			<input type="text" name="full_name" placeholder="Full Name" />
+			<input type="text" name="email" placeholder="Email" />
+			<input type="text" name="password" placeholder="Password" />
+      	<span>or use social media for registration</span>
+
+      <div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<button >Sign Up</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="customer/customerlogin.jsp" method="post">
+			<h2> SIGN IN</h2><BR>
+			<input type="email" name= "email" placeholder="Email" />
+			<input type="password" name="password" placeholder="Password">
+			<a href="#">Forgot your password?</a>
+      	<span>or sign in with social media </span>
+      <div class="social-container">
+        <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+        <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+			<button>Sign In</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+        <img src="image/logo.png" alt="cita logo" width="240" height="100">
+				<h1>Already have an Account? </h1>
+				<p>To keep connected with upcoming events, login to CITA</p>
+				<button class="ghost" id="signIn">Sign In</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+        <img src="image/logo.png" alt="cita logo" width="240" height="100">
+        	<h1>NEW HERE!</h1>
+				<p>Join with us to get connected with upcoming events. </p>
+				<button class="ghost" id="signUp">Sign Up</button>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="js/app.js"></script>
+
+</body>
+
+
+
+</html>
