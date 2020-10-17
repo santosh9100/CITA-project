@@ -18,9 +18,9 @@
  
 
 
-    final String from = "santoshkarki930@gmail.com";
+    final String from = "PUT YOUR EMAIL ADDRESS HERE";
 
-    final String pass = "$@NTO$h012171447";
+    final String pass = "PUT YOUR EMAIL PASSWORD";
 
  
 
