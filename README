@@ -12,6 +12,7 @@ Make table structure of event with details :event, location, time, filename, pat
 With the database connection, try to make the port number with 3307.
 After all set with the connection then there is “customerhome.html” , run this file with the tomcat server.
 
+For email marketing, you need to put your own email address and password inside the "sendmail.jsp" file, so that the email will send to the customer from that email. 
 
 Then you are ready to go.
 Hope this would be helpful.
