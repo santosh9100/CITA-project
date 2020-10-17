@@ -1,0 +1,30 @@
+Instruction how to run the project:
+
+First import the complete project inside the eclipse,
+Create database in sql name after project,
+
+Create event, admin and customer as a table name,
+
+Make table structure of admin with details :username, full_name, email, password.
+Make table structure of customer with details :username, full_name, email, password.
+Make table structure of event with details :event, location, time, filename, path, c_name, c_location, c_email, h_name, h_location, h_email, s_name, s_email.
+
+With the database connection, try to make the port number with 3307.
+After all set with the connection then there is “customerhome.html” , run this file with the tomcat server.
+
+
+Then you are ready to go.
+Hope this would be helpful.
+
+“We made a video about how the project functions. You can take a reference the video for more clarity of its functionality”.
+
+YouTube video link:
+
+
+https://youtu.be/f-qdDKomcyo
+
+THANK YOU.
+
+
+
+
